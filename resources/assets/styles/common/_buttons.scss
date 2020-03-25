@@ -1,0 +1,10 @@
+.btn-primary {
+  padding: 7px 14px;
+  border: 1px solid $primary;
+  color: $primary;
+  transition: $transition;
+  &:hover {
+    color: $white;
+    background-color: $primary;
+  }
+}

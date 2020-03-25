@@ -1,16 +1,10 @@
-@import "~foundation-sites/dist/css/foundation.min.css";
-@import "common/variables";
 
 /** Utilities & Helpers */
 @import "utilities/position";
 
 /** Import theme styles */
 @import "reset";
-@import "mixins";
-@import "type";
 
-@import "layouts/welcome";
-@import "components/animate";
 
 /** Import everything from autoload */
 @import "./autoload/*";
@@ -22,6 +16,9 @@
  * @see https://github.com/webpack-contrib/sass-loader#imports
  */
 
+@import "foundation";
+
+@import "type";
 /**
  * ==========
  * Components
@@ -30,7 +27,7 @@
  * - generic components can be buttons, navs, gallery slider
  * - page-specific components such as testimonials
  */
-// @import "components/buttons";
+@import "common/buttons";
 @import "components/fonts";
 
 /**
