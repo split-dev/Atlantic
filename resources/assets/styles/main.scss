@@ -1,9 +1,10 @@
-/*@import "common/variables";
+@import "~foundation-sites/scss/foundation";
+@import "common/variables";
 
-!** Utilities & Helpers *!
+/** Utilities & Helpers */
 @import "utilities/position";
 
-!** Import theme styles *!
+/** Import theme styles */
 @import "reset";
 @import "mixins";
 @import "type";
@@ -11,8 +12,8 @@
 @import "layouts/welcome";
 @import "components/animate";
 
-!** Import everything from autoload *!
-@import "./autoload!*";*/
+/** Import everything from autoload */
+@import "./autoload/*";
 
 /**
  * Import npm dependencies
