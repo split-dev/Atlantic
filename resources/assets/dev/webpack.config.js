@@ -67,24 +67,27 @@ let webpackConfig = {
       {
         test: /\.scss$/,
         include: config.paths.assets,
-        use: [
-          'style-loader',
-          { loader: 'css', options: { sourceMap: config.enabled.sourceMaps } },
-          {
-            loader: 'postcss', options: {
-              config: { path: __dirname, ctx: config },
-              sourceMap: config.enabled.sourceMaps,
+        use: ExtractTextPlugin.extract({
+          fallback: 'style',
+          use: [
+            { loader: 'cache' },
+            { loader: 'css', options: { sourceMap: config.enabled.sourceMaps } },
+            {
+              loader: 'postcss', options: {
+                config: { path: __dirname, ctx: config },
+                sourceMap: config.enabled.sourceMaps,
+              },
             },
-          },
-          { loader: 'resolve-url', options: { sourceMap: config.enabled.sourceMaps } },
-          {
-            loader: 'sass-loader', options: {
-              sourceMap: config.enabled.sourceMaps,
-              sourceComments: true,
-              implementation: require('sass'),
+            { loader: 'resolve-url', options: { sourceMap: config.enabled.sourceMaps } },
+            {
+              loader: 'sass-loader', options: {
+                sourceMap: config.enabled.sourceMaps,
+                sourceComments: true,
+                implementation: require('sass'),
+              },
             },
-          },
-        ],
+          ],
+        }),
       },
       {
         test: /\.(ttf|otf|eot|woff2?|png|jpe?g|gif|svg|ico)$/,
