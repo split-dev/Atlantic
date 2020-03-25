@@ -61,6 +61,7 @@
   "dependencies": {
     "buble": "^0.19.8",
     "dotenv": "^8.2.0",
+    "extract-text-webpack-plugin": "4.0.0-beta.0",
     "foundation-sites": "^6.6.1",
     "handlebars": "^4.7.3",
     "handlebars-loader": "^1.7.1",
