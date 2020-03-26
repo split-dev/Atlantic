@@ -1,1 +1,10 @@
-{}
+{
+  "image-block": {
+    "text-class": "bg-grey-extra text-white",
+    "subtitle": "UPCOMING EVENTS",
+    "heading": "Visit us at the <br /> lorem show",
+    "text": "Ut enim ad minim veniam, quis nostrud <br /> exercitation ullamco laboris nisi ut aliquip <br /> ex ea commodo consequat.",
+    "label": "Register for your chance to win",
+    "image": "images/pictures/caravanandstars.jpg"
+  }
+}

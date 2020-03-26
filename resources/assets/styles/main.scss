@@ -27,7 +27,10 @@
  * - generic components can be buttons, navs, gallery slider
  * - page-specific components such as testimonials
  */
-@import "components/fonts";
+@import "components/cta";
+@import "components/image-block";
+
+@import "pages/home";
 
 /**
  * ==========

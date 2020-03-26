@@ -1,8 +1,17 @@
 .text-primary {
   color: $primary;
 }
+.text-white {
+  color: $white;
+}
 .text-grey-medium {
   color: map_get($grey, medium);
+}
+.bg-primary {
+  background-color: $primary;
+}
+.bg-grey-extra {
+  background-color: map_get($grey, extra);
 }
 .bg-grey-light {
   background-color: map_get($grey, light);

@@ -4,6 +4,23 @@
   {{> ../common/head }}
 </head>
 <body>
+  <section class="home-hero" style="background-image: url('images/pictures/home-hero.jpg')">
+    <div class="row flex-dir-column">
+      <h1>
+        Start your journey <br>
+        with Atlantic</h1>
+      <p>
+        We specialise in customising each build from adding features and adjusting floor plans to choosing from hundreds of colours upholstery, furniture and cabinetry.
+      </p>
+      <div class="flex-container flex-align-center">
+        <a href="#" class="btn btn-white-outline">Find your local dealer</a>
+        <span>or</span>
+        <a href="#" class="btn btn-white fw-bold">Explore our range</a>
+      </div>
+    </div>
+  </section>
+
+<!--  "Typography & Buttons" | Can be deleted  -->
   <div class="row column">
     <h1>Heading 1</h1>
     <h2>Heading 2</h2>
@@ -11,11 +28,14 @@
     <h4>Heading 4</h4>
     <h5>Heading 5</h5>
     <p>Paragraph text <b>bold text</b> and here is a <a href="#" role="link">link</a> </p>
-    <a href="#" class="btn btn-primary">Main Banner CTA</a>
-    <a href="#" class="btn btn-grey">Menu and content CTA</a>
-    <a href="#" class="btn btn-primary-outline">Secondary Banner CTA</a>
-    <a href="#" class="btn btn-grey-outline">Secondary Banner CTA</a>
+    <a href="#" class="btn btn-primary-outline">Main Banner CTA</a>
+    <a href="#" class="btn btn-grey-outline">Menu and content CTA</a>
+    <a href="#" class="btn btn-primary">Secondary Banner CTA</a>
+    <a href="#" class="btn btn-grey">Secondary Banner CTA</a>
   </div>
+<!--  End of "Typography & Buttons" -->
+  {{> ../partials/image-block}}
+  {{> ../partials/cta}}
   {{> ../common/footer}}
 </body>
 </html>
