@@ -3,7 +3,6 @@
   "sitemap": [
     {
       "title": "Home Page",
-      "description": "pending",
       "url": "/index.html"
     }
   ]

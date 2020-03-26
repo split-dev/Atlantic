@@ -1,3 +1,6 @@
+// Grid
+$global-width: 1230px;
+
 // Colours
 $primary: #174194;
 $secondary: #5c86da;
@@ -16,6 +19,7 @@ $grey: (
   light: #f6f6f6,
   white: #fff,
 );
+$anchor-color-hover: $secondary;
 
 // Type
 $header-styles: (

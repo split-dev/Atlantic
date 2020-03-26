@@ -1,10 +1,8 @@
-
-/** Utilities & Helpers */
-@import "utilities/position";
-
 /** Import theme styles */
 @import "reset";
 
+/** Utilities & Helpers */
+@import "utilities/position";
 
 /** Import everything from autoload */
 @import "./autoload/*";
@@ -16,9 +14,11 @@
  * @see https://github.com/webpack-contrib/sass-loader#imports
  */
 
-@import "foundation";
 
+@import "foundation";
 @import "type";
+@import "common/global";
+@import "common/buttons";
 /**
  * ==========
  * Components
@@ -27,7 +27,6 @@
  * - generic components can be buttons, navs, gallery slider
  * - page-specific components such as testimonials
  */
-@import "common/buttons";
 @import "components/fonts";
 
 /**
@@ -37,4 +36,4 @@
  * Layouts define the scaffold of the application
  * such as header, footer
  */
-// @import "layouts/base";
+@import "layouts/footer";

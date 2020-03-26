@@ -1,0 +1,56 @@
+footer {
+  font-size: 16px;
+  * {
+    font-size: inherit;
+  }
+}
+.footer {
+  &__top {
+    padding: 50px 0;
+  }
+  &__bottom {
+    font-size: 14px;
+    padding: 12px 0;
+    * {
+      margin-bottom: 0;
+      color: inherit;
+    }
+    span {
+      margin: 0 16px;
+    }
+  }
+  &__links {
+    a {
+      color: map_get($grey, medium);
+      fill: map_get($grey, medium);
+      transition: $transition;
+      margin-bottom: 14px;
+      @extend .flex-align-center;
+      &:hover {
+        color: $secondary;
+        fill: $secondary;
+      }
+    }
+    &.column {
+      padding-top: 50px;
+    }
+    &.column-prop {
+      column-count: 2;
+    }
+  }
+  &__inner {
+    margin: 0 16px;
+    padding: 50px 40px 0;
+    height: 100%;
+    border-right: 1px solid map_get($grey, light);
+    border-left: 1px solid map_get($grey, light);
+    &__col {
+      & > a {
+        display: block;
+        margin-bottom: 12px;
+        @extend .fw-bold;
+        @extend .text-primary;
+      }
+    }
+  }
+}

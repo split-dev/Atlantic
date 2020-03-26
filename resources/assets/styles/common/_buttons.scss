@@ -1,10 +1,24 @@
+.btn {
+  display: inline-block;
+}
 .btn-primary {
   padding: 7px 14px;
   border: 1px solid $primary;
   color: $primary;
-  transition: $transition;
-  &:hover {
-    color: $white;
-    background-color: $primary;
-  }
+}
+.btn-grey {
+  color: map-get($grey, extra);
+  padding: 7px 14px;
+  border: 1px solid map-get($grey, extra);
+  font-size: 16px;
+}
+.btn-primary-outline {
+  color: $primary;
+}
+.btn-grey-outline {
+  color: map-get($grey, extra);
+  font-size: 16px;
+}
+a[role="link"] {
+  text-decoration: underline;
 }

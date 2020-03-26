@@ -1,0 +1,12 @@
+.text-primary {
+  color: $primary;
+}
+.text-grey-medium {
+  color: map_get($grey, medium);
+}
+.bg-grey-light {
+  background-color: map_get($grey, light);
+}
+.fw-bold {
+  font-weight: 700;
+}
