@@ -5,7 +5,7 @@
       <p class="image-block__subtitle">{{subtitle}}</p>
       <h3 class="image-block__title">{{{heading}}}</h3>
       <p>{{{text}}}</p>
-      <a href="#" class="btn fw-bold">{{label}}</a>
+      {{#if label}}<a href="#" class="btn btn-white fw-bold">{{label}}</a>{{/if}}
     </div>
   </div>
   <div class="image-block__img" style="background-image: url('{{image}}')"></div>

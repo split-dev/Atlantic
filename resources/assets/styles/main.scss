@@ -13,7 +13,7 @@
  * Prefix your imports with `~` to grab from node_modules/
  * @see https://github.com/webpack-contrib/sass-loader#imports
  */
-
+@import "~swiper/css/swiper.min.css";
 
 @import "foundation";
 @import "type";
@@ -29,6 +29,7 @@
  */
 @import "components/cta";
 @import "components/image-block";
+@import "components/single-tile";
 
 @import "pages/home";
 

@@ -4,6 +4,9 @@
 .text-white {
   color: $white;
 }
+.text-grey-extra {
+  color: map_get($grey, extra);
+}
 .text-grey-medium {
   color: map_get($grey, medium);
 }
