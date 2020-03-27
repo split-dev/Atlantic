@@ -26,5 +26,5 @@ const routes = new Router({
   'index': home,
 });
 
-// // Load Events
+// Load Events
 jQuery(document).ready(() => routes.loadEvents());

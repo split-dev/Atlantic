@@ -7,10 +7,12 @@ export default {
       slidesPerView: 1,
       loop: true,
       centeredSlides: true,
+      simulateTouch: true,
       breakpoints: {
         768: {
           slidesPerView: 3,
           spaceBetween: 30,
+          simulateTouch: false,
         },
       },
     });
