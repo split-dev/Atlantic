@@ -1,4 +1,7 @@
 {
+  "header": {
+    "class": "initial-transparent transparent"
+  },
   "product": [
     {"title": "Endeavour"},
     {"title": "High terrain"},

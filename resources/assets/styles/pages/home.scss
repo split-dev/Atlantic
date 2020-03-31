@@ -65,7 +65,9 @@
   }
   &:before,
   &:after {
-    content: "";
+    @media (min-width: 768px) {
+      content: "";
+    }
     display: block;
     position: absolute;
     width: 30%;
