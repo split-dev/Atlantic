@@ -8,29 +8,41 @@
  */
 body {
   font-family: $body-font-family;
+  font-size: 18px;
   @media (min-width: 640px) {
     font-size: 21px;
   }
 }
+h1,
+h2,
+h3,
+h4,
+h5 {
+  @extend .text-uppercase;
+}
 h1 {
-  color: map-get($grey, extra);
-  line-height: 80.9px;
+  line-height: 44px;
+  @media (min-width: 640px) {
+    line-height: 70px;
+  }
 }
 h2 {
-  color: map-get($grey, medium);
-  line-height: 64.85px;
+  line-height: 44px;
+  @media (min-width: 640px) {
+    line-height: 55px;
+  }
 }
 h3 {
-  color: map-get($grey, extra);
-  line-height: 47.74px;
+  line-height: 31px;
+  @media (min-width: 640px) {
+    line-height: 42px;
+  }
 }
 h4 {
   font-family: $body-font-family;
-  color: map-get($grey, medium);
   font-weight: 400;
 }
 h5 {
   font-family: $body-font-family;
-  color: map-get($grey, medium);
   font-weight: 500;
 }

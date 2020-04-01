@@ -5,7 +5,9 @@
   "product": [
     {"title": "Endeavour"},
     {"title": "High terrain"},
-    {"title": "New generation"}
+    {"title": "New generation"},
+    {"title": "Endeavour2"},
+    {"title": "High terrain2"}
   ],
   "image-block": {
     "text-class": "bg-grey-extra text-white",

@@ -68,7 +68,9 @@ footer {
       }
     }
     &.column-prop {
-      column-count: 2;
+      @media (min-width: 640px) {
+        column-count: 2;
+      }
     }
   }
   &__inner {
@@ -81,7 +83,7 @@ footer {
       justify-content: space-between;
     }
     &__col {
-      @media (max-width: 1023px) and (min-width: 640px) {
+      @media (max-width: 1023px) {
         width: 50%;
         &:last-child {
           padding-left: 65px;
@@ -89,7 +91,7 @@ footer {
       }
       @media (max-width: 639px) {
         &:last-child {
-          margin-top: 20px;
+          padding-left: 15px;
         }
       }
       & > a {

@@ -11,7 +11,7 @@ export default {
     let logoInitial = document.querySelector('.header__logo img').getAttribute('src');
     if (header.classList.contains('initial-transparent')) {
       document.querySelector('.header__logo img').setAttribute('src', logoWhite);
-      if (window.innerWidth > 991) {
+      if (window.innerWidth > 1024) {
         window.onscroll = () => {
           if (window.pageYOffset === 0) {
             header.classList.add('transparent');
@@ -35,7 +35,6 @@ export default {
           else {
             header.classList.remove('transparent');
             // header.classList.add( 'scroll');
-
           }
         }
       }

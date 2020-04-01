@@ -8,9 +8,14 @@ export default {
       loop: true,
       centeredSlides: true,
       simulateTouch: true,
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+        clickable: 'true',
+      },
       breakpoints: {
-        768: {
-          slidesPerView: 3,
+        1024: {
+          slidesPerView: 2.7,
           spaceBetween: 30,
           simulateTouch: false,
         },

@@ -33,7 +33,9 @@
     }
   }
   &__img {
-    width: 80%;
+    max-width: 818px;
+    width: 100%;
+    align-self: flex-end;
     min-height: 240px;
     background-size: cover;
     background-position: center center;
@@ -43,6 +45,8 @@
     @media (min-width: 1024px) {
       margin-left: -40px;
       width: 57%;
+      max-width: none;
+      align-self: auto;
     }
   }
   &__subtitle {

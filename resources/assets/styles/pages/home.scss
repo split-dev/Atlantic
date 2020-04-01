@@ -1,28 +1,51 @@
 .home-hero {
-  height: 100vh;
+  height: 700px;
   background-size: cover;
   background-position: center center;
   position: relative;
   z-index: 1;
   padding: 0 15px;
+  @media (min-width: 370px) {
+    height: 100vh;
+  }
   &:after {
     content: "";
     background-color: rgba(0, 0, 0, 0.45);
     z-index: -1;
     @extend .absolute-fill;
   }
+  &__links {
+    flex-wrap: wrap;
+    * {
+      font-size: 21px;
+    }
+    @media (max-width: 641px) {
+      text-align: center;
+      justify-content: center;
+      a:first-child {
+        width: 100%;
+        margin-bottom: 33px;
+      }
+    }
+  }
   * {
     color: $white;
   }
   h1 {
     margin-bottom: 32px;
+    @media (max-width: 641px) {
+      margin-bottom: 20px;
+    }
   }
   p {
     max-width: 569px;
     margin-bottom: 42px;
   }
   span {
-    margin: 0 25px;
+    margin-right: 17px;
+    @media (min-width: 640px) {
+      margin: 0 25px;
+    }
   }
   & > .row {
     height: 100%;
@@ -31,6 +54,9 @@
 }
 .recent-posts {
   padding: 85px 0;
+  @media (max-width: 639px) {
+    padding-bottom: 60px;
+  }
   &__title {
     margin-bottom: 20px;
     @media (min-width: 640px) {
@@ -45,44 +71,79 @@
   }
 }
 .home-products {
-  padding: 60px 0 80px;
+  padding: 60px 0 96px;
+  @media (min-width: 1024px) {
+    padding-bottom: 80px;
+  }
   &__slide {
     transition: 0.3s;
     p,
     a {
       transform: translateY(-15px);
-      font-size: 21px;
       opacity: 0;
       transition: 0.2s;
       transition-delay: 0s;
       pointer-events: none;
+      padding: 0 15px;
+    }
+    &:before,
+    &:after {
+      @media (min-width: 1024px) {
+        content: "";
+      }
+      display: block;
+      position: absolute;
+      width: 100%;
+      top: 0;
+      bottom: 0;
+      pointer-events: none;
+      z-index: 10;
     }
   }
   &__title {
+    color: #9191919c;
+    stroke: map_get($grey, medium);
     white-space: nowrap;
     margin-bottom: 6px;
     transition: 0.3s;
-  }
-  &:before,
-  &:after {
-    @media (min-width: 768px) {
-      content: "";
+    position: relative;
+    z-index: 20;
+    svg {
+      margin-bottom: 2px;
     }
-    display: block;
-    position: absolute;
-    width: 30%;
-    top: 0;
-    bottom: 0;
-    pointer-events: none;
-    z-index: 10;
   }
-  &:before {
-    left: 0;
-    background-image: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.47) 52%, #fff 100%);
-  }
-  &:after {
-    right: 0;
-    background-image: linear-gradient(270deg, #fff 0%, rgba(255, 255, 255, 0.47) 52%, rgba(255, 255, 255, 0) 100%);
+  &__pagination {
+    bottom: 54px !important;
+    &:after {
+      content: "";
+      display: block;
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 10px;
+      height: 2px;
+      background-color: #c8c8c8;
+      z-index: -1;
+      @media (min-width: 640px) {
+        bottom: 12px;
+      }
+    }
+    @media (min-width: 1024px) {
+      display: none;
+    }
+    .swiper-pagination-bullet {
+      margin: 0 19px !important;
+      background: #c8c8c8;
+      position: relative;
+      opacity: 1;
+      z-index: 1;
+      transition: 0.2s;
+    }
+    .swiper-pagination-bullet-active {
+      transform: scale(2);
+      background: map_get($grey, medium);
+      opacity: 1;
+    }
   }
   &__arrow--right,
   &__arrow--left {
@@ -105,13 +166,21 @@
     }
   }
   .swiper-slide-prev {
+    &:before {
+      left: 0;
+      background-image: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.47) 52%, #fff 100%);
+    }
     .home-products__arrow--left {
-      opacity: 1;
+      opacity: 0.5;
     }
   }
   .swiper-slide-next {
+    &:after {
+      right: 0;
+      background-image: linear-gradient(270deg, #fff 0%, rgba(255, 255, 255, 0.47) 52%, rgba(255, 255, 255, 0) 100%);
+    }
     .home-products__arrow--right {
-      opacity: 1;
+      opacity: 0.5;
     }
   }
   .swiper-slide-active {
@@ -133,20 +202,19 @@
   }
 }
 .review-block {
-  margin: 35px 0 43px;
+  margin: 60px 0 0;
   padding: 0 15px;
   @media (min-width: 640px) {
     margin: 71px 0 86px;
   }
   &__stars {
-    margin-bottom: 6px;
+    margin-bottom: 9px;
   }
   &__img {
     background-size: cover;
     background-clip: content-box;
     background-position: center center;
     padding: 0 0 15px 15px;
-    width: 80%;
     min-height: 240px;
     &:after {
       content: "";
@@ -172,7 +240,7 @@
       max-width: 545px;
       padding: 124px 0 89px 30px;
     }
-    @media (max-width: 1025px) {
+    @media (max-width: 1023px) {
       br {
         display: none;
       }

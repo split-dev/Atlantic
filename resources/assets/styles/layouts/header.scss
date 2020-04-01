@@ -5,7 +5,7 @@
   right: 0;
   background-color: #fff;
   z-index: 2;
-  transition: $transition;
+  transition: 0.15s;
   &__top-nav {
     padding: 14px 15px 11px;
     a {
@@ -17,12 +17,12 @@
         color: $secondary;
       }
     }
-    @media (max-width: 992px) {
+    @media (max-width: 1023px) {
       display: none;
     }
   }
   &__logo {
-    @media (max-width: 992px) {
+    @media (max-width: 1023px) {
       background-color: $primary;
       padding: 15px;
     }
@@ -33,7 +33,7 @@
   }
   &__main-nav {
     align-items: center;
-    @media (min-width: 991px) {
+    @media (min-width: 1024px) {
       border-top: 1px solid map_get($grey, medium);
       border-bottom: none;
       padding-top: 17px;
@@ -55,13 +55,13 @@
       li {
         margin-left: 43px;
       }
-      @media (max-width: 992px) {
+      @media (max-width: 1023px) {
         display: none;
       }
     }
   }
   &__mobile {
-    @media (min-width: 991px) {
+    @media (min-width: 1024px) {
       display: none;
     }
     a {
@@ -114,14 +114,16 @@
   }
   &__menu {
     background-color: $white;
+    border-top: 1px solid rgba(208, 208, 206, 0.5);
     padding: 50px 15px;
-    position: fixed;
+    position: absolute;
     left: 0;
-    top: 55px;
-    right: 0;
     bottom: 0;
+    right: 0;
     opacity: 0;
+    height: 100vh;
     pointer-events: none;
+    transform: translateY(100%);
     transition: 0.2s;
     &.open {
       opacity: 1;
@@ -151,7 +153,7 @@
       border-color: $white;
     }
     .header__logo {
-      @media (max-width: 992px) {
+      @media (max-width: 1023px) {
         background-color: rgba(255, 255, 255, 0.1);
       }
     }
