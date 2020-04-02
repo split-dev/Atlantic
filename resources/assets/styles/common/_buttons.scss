@@ -4,6 +4,9 @@
     margin-left: 15px;
     overflow: visible;
     transition: margin-left 0.2s;
+    @media (min-width: 1024px) {
+      margin-bottom: -2px;
+    }
   }
   .svg-anim {
     margin-left: -1px;

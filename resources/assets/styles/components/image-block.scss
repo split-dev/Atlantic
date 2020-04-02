@@ -89,6 +89,13 @@
 }
 .header + .image-block {
   margin-top: 50px;
+  @media (max-width: 1023px) {
+    flex-direction: column;
+    .image-block__img,
+    .image-block__text {
+      max-width: none;
+    }
+  }
   .image-block__title:only-child {
     margin-top: 45px;
   }

@@ -1,0 +1,53 @@
+.resources-tab {
+  &__container {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  &__title {
+    width: 50%;
+    a {
+      padding: 12px 15px;
+      border: 2px solid #f6f6f6;
+      transition: 0.2s;
+      font-size: 13px;
+      margin-top: 9px;
+      @extend .text-grey-extra;
+      @extend .text-center;
+      &:focus {
+        outline: none;
+      }
+    }
+    &.is-active a {
+      padding: 15px;
+      border-color: $primary;
+      font-size: 16px;
+      margin-top: 0;
+      @extend .bg-primary;
+      @extend .text-white;
+      @extend .fw-bold;
+    }
+  }
+  &__content {
+    p,
+    a,
+    button {
+      font-size: 16px;
+    }
+    p {
+      margin-bottom: 7px;
+      color: map_get($grey, medium);
+    }
+    a:not(:last-child) {
+      margin-bottom: 23px;
+    }
+    b {
+      color: map_get($grey, extra);
+    }
+    input {
+      margin-top: 24px;
+    }
+    &__title {
+      margin-bottom: 25px;
+    }
+  }
+}
