@@ -238,11 +238,21 @@
     @media (min-width: 1024px) {
       width: 47%;
       max-width: 545px;
-      padding: 124px 0 89px 30px;
+      padding: 124px 15px 89px 30px;
+      &.narrow {
+        padding-top: 78px;
+        padding-bottom: 60px;
+      }
     }
     @media (max-width: 1023px) {
       br {
         display: none;
+      }
+    }
+    p {
+      margin-bottom: 9px;
+      &:last-child {
+        margin-bottom: 0;
       }
     }
   }

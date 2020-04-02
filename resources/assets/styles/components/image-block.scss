@@ -21,6 +21,7 @@
       }
     }
     p {
+      margin-bottom: 7px;
       @media (min-width: 1024px) {
         max-width: 447px;
       }
@@ -51,6 +52,9 @@
         max-width: 544px;
         margin-left: auto;
         min-height: 368px;
+        &.narrow {
+          padding: 56px 15px 60px;
+        }
       }
       a {
         font-size: 16px;

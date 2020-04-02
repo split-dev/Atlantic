@@ -1,0 +1,17 @@
+{
+  "page_title": "About",
+  "image-block": {
+    "text-class": "bg-grey-light text-grey-medium",
+    "image": "images/pictures/couple&dog-on-the-mountaing--big.jpg",
+    "subtitle": "about us",
+    "heading": "Experts in custom caravan <br /> production",
+    "text": "Thanks to the latest technology, outstanding interior design and \na high-quality finish, enjoying the great outdoors in an Atlantic Caravan is a five-star experience."
+  },
+  "image-block2": {
+    "text-class": "bg-grey-extra text-white",
+    "heading": "Creating 5-star experiences on <br /> 4 wheels",
+    "text": "We love the fact that everyone has their own style and we take great pride in tailoring caravans that make our customers’ dreams a reality.",
+    "text2": "We want you to enjoy complete comfort in your home away from home, whether you’re a weekend wanderer or a seasonal adventurer.",
+    "image": "images/pictures/caravanandstars.jpg"
+  }
+}

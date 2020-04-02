@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {{> ../common/head }}
+</head>
+<body>
+  {{> ../common/header}}
+  {{> ../partials/image-block}}
+  <section class="overflow-hidden review-block">
+    <div class="row flex-dir-column large-flex-dir-row">
+      <div class="review-block__img position-relative"style="background-image: url('images/pictures/Caravan-Shows.jpg')">
+
+      </div>
+      <div class="review-block__text narrow">
+        <h3 class="text-grey-extra">
+          Over 30 years of <br /> combined experience</h3>
+        <div  class="text-grey-medium">
+          <p>
+            Our mission at Atlantic is to create a community of like-minded souls who want to explore Australia in unbeatable comfort.
+          </p>
+          <p>
+            Outstanding service has to be based on value and trust, so we take the time to build strong relationships with our dealers and our customers. Feel free to contact us for a factory tour and you’ll see what we mean.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{> ../partials/image-block
+          image-block=image-block2
+          narrow=true}}
+  <section class="row our-passion">
+    <div class="column small-12 large-7">
+      <img class="display-block mx-auto" src="images/products/Endeavour_17_fr34--large.jpg" alt="#">
+    </div>
+    <div class="column small-12 large-4">
+      <h3>Highest quality custom caravans is our passion</h3>
+      <div class="text-grey-medium">
+        <p>
+          nothing delights us more than crafting one
+          to meet your needs. Every aspect of your caravan is carefully considered, but whatever your individual requirements, you can rest assured that all our caravans feature the
+          latest technology, modern interior designs
+          and furniture that is built to the highest standard possible.
+        </p>
+        <p>
+          Atlantic Caravans include solar power too,
+          so the only limit to where you can roam
+          is your own imagination.
+        </p>
+      </div>
+    </div>
+  </section>
+  {{> ../partials/cta}}
+  {{> ../common/footer}}
+</body>
+</html>s
