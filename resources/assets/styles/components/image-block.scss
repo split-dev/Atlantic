@@ -6,6 +6,9 @@
     @media (min-width: 640px) {
       padding: 70px 15px 46px;
     }
+    @media (min-width: 640px) and (max-width: 1025px) {
+      max-width: 818px;
+    }
     @media (min-width: 1024px) {
       width: 46%;
       background-clip: content-box;
@@ -17,8 +20,29 @@
         display: inline;
       }
     }
-    &.text-white * {
-      color: inherit;
+    p {
+      @media (min-width: 1024px) {
+        max-width: 447px;
+      }
+    }
+    &.text-white {
+      * {
+        color: inherit;
+      }
+      .btn {
+        @extend .btn-white;
+      }
+    }
+    &.text-grey-medium {
+      .image-block__title {
+        color: map_get($grey, extra);
+      }
+      p {
+        color: inherit;
+      }
+      .btn {
+        @extend .btn-grey;
+      }
     }
     &__content {
       width: 100%;
@@ -44,7 +68,7 @@
     }
     @media (min-width: 1024px) {
       margin-left: -40px;
-      width: 57%;
+      width: 58%;
       max-width: none;
       align-self: auto;
     }

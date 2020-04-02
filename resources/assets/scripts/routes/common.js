@@ -40,10 +40,13 @@ export default {
       }
     }
 
+    if (window.innerWidth < 1025)
+      document.querySelector('.header__logo img').setAttribute('src', logoWhite);
+
     document.querySelector('[data-mob-menu-trigger]').addEventListener('click', function () {
       this.classList.toggle('open');
       document.querySelector('.header__menu').classList.toggle('open');
-      if (window.pageYOffset === 0)
+      if ((window.pageYOffset === 0) && header.classList.contains('initial-transparent'))
         header.classList.toggle('transparent');
 
       document.querySelector('body').classList.toggle('overflow-hidden')

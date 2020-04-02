@@ -6,6 +6,9 @@
   background-color: #fff;
   z-index: 2;
   transition: 0.15s;
+  @media (min-width: 1024px) {
+    box-shadow: 0 2px 4px #f6f6f6;
+  }
   &__top-nav {
     padding: 14px 15px 11px;
     a {
@@ -37,7 +40,7 @@
       border-top: 1px solid map_get($grey, medium);
       border-bottom: none;
       padding-top: 17px;
-      padding-bottom: 15px;
+      padding-bottom: 7px;
       .btn svg {
         margin-bottom: -2px;
       }
@@ -141,6 +144,7 @@
   }
   &.transparent {
     background-color: transparent;
+    box-shadow: none;
     a {
       color: $white;
       border-color: $white;

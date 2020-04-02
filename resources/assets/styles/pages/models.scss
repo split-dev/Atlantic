@@ -1,0 +1,31 @@
+.page-intro {
+  margin-top: 120px;
+  @media (min-width: 640px) {
+    margin-top: 140px;
+  }
+  @media (min-width: 1024px) {
+    margin-top: 180px;
+  }
+}
+.product-tile {
+  margin-bottom: 40px;
+  @media (min-width: 640px) {
+    margin-bottom: 60px;
+  }
+  p,
+  a {
+    font-size: 16px;
+  }
+  p {
+    margin: 0 auto 4px;
+    @media (min-width: 1024px) {
+      max-width: 335px;
+    }
+  }
+  svg {
+    margin: 0 0 -2px 10px;
+  }
+  &__container {
+    margin: 60px 0 40px;
+  }
+}

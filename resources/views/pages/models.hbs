@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {{> ../common/head }}
+</head>
+<body class="">
+  {{> ../common/header}}
+  <section class="row column page-intro">
+    <h2 class="text-center">Our Models</h2>
+  </section>
+  <section class="row align-center text-center product-tile__container">
+    {{#each products}}
+    <div class="column small-12 medium-6 large-4 product-tile">
+      <img src="{{image}}" alt="#">
+      <h4 class="font-Montserrat">{{title}}</h4>
+      <p class="text-grey-medium">{{text}}</p>
+      <a href="#" class="btn btn-primary">Download brochure</a>
+    </div>
+    {{/each}}
+  </section>
+  {{> ../partials/image-block}}
+  {{> ../partials/cta}}
+  {{> ../common/footer}}
+</body>
+</html>

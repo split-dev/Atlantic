@@ -1,0 +1,38 @@
+{
+  "page_title": "View or Models",
+  "image-block": {
+    "text-class": "bg-grey-light text-grey-medium",
+    "subtitle": "Customisation",
+    "heading": "Upgrade your <br /> Atlantic today",
+    "text": "As with all our caravans there is extensive scope to customise and tailor your van to cater to your family’s needs.",
+    "label": "View your customisation options",
+    "image": "images/pictures/Atlantic_HT_19_int_3a.jpg"
+  },
+  "products": [
+    {
+      "image": "images/products/Endeavour_17_fr34.jpg",
+      "title": "Endeavour",
+      "text": "The Endeavour is the swiss army knife of the caravan world and can be customised to suit just about any requirement."
+    },
+    {
+      "image": "images/products/Atlantic_NG_21_fr34-2.jpg",
+      "title": "New generation",
+      "text": "The Endeavour is the swiss army knife of the caravan world and can be customised to suit just about any requirement."
+    },
+    {
+      "image": "images/products/4-2.jpg",
+      "title": "High Terrain",
+      "text": "The Endeavour is the swiss army knife of the caravan world and can be customised to suit just about any requirement."
+    },
+    {
+      "image": "images/products/Endeavour_17_fr34.jpg",
+      "title": "e-series",
+      "text": "The Endeavour is the swiss army knife of the caravan world and can be customised to suit just about any requirement."
+    },
+    {
+      "image": "images/products/Endeavour_17_fr34.jpg",
+      "title": "Signature",
+      "text": "The Endeavour is the swiss army knife of the caravan world and can be customised to suit just about any requirement."
+    }
+  ]
+}

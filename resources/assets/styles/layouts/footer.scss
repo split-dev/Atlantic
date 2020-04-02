@@ -70,6 +70,7 @@ footer {
     &.column-prop {
       @media (min-width: 640px) {
         column-count: 2;
+        column-gap: 24px;
       }
     }
   }
