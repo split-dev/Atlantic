@@ -50,6 +50,7 @@
         padding: 100px 15px;
         max-width: 544px;
         margin-left: auto;
+        min-height: 368px;
       }
       a {
         font-size: 16px;
@@ -84,5 +85,17 @@
   & + .cta__section {
     margin-top: -46px;
     padding-top: 40px;
+  }
+}
+.header + .image-block {
+  margin-top: 50px;
+  .image-block__title:only-child {
+    margin-top: 45px;
+  }
+  .image-block__img {
+    @media (min-width: 1024px) {
+      margin-left: 0;
+      width: 56%;
+    }
   }
 }

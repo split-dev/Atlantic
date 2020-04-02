@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {{> ../common/head }}
+</head>
+<body class="dealer-resources">
+  {{> ../common/header}}
+  {{> ../partials/image-block}}
+  <section class="row">
+    <div class="column large-offset-1 large-6">
+      <div class="bg-grey-light">
+        <ul class="tabs" data-tabs id="example-tabs">
+          <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Dealer resources</a></li>
+          <li class="tabs-title"><a data-tabs-target="panel2" href="#panel2">Warranty Request Form</a></li>
+        </ul>
+        <div class="tabs-content" data-tabs-content="example-tabs">
+          <div class="tabs-panel is-active" id="panel1">
+            <p>Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus.</p>
+          </div>
+          <div class="tabs-panel" id="panel2">
+            <p>Suspendisse dictum feugiat nisl ut dapibus.  Vivamus hendrerit arcu sed erat molestie vehicula. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor.  Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="column large-offset-1 large-3">
+      <div class="bg-grey-light">
+        <h4 class="">Stay up to date with Atlantic</h4>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        </p>
+        <label for="email"></label>
+        <input type="email" id="email">
+      </div>
+    </div>
+  </section>
+  {{> ../common/footer}}
+</body>
+</html>

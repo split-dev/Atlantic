@@ -12,6 +12,10 @@
     {
       "title": "Dealer Log In",
       "url": "/log-in.html"
+    },
+    {
+      "title": "Dealer Resources",
+      "url": "/dealer-resources.html"
     }
   ]
 }
