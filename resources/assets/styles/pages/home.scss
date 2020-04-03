@@ -112,6 +112,9 @@
       margin-bottom: 2px;
     }
   }
+  &__img {
+    transition: transform 0.2s;
+  }
   &__pagination {
     bottom: 54px !important;
     &:after {
@@ -186,6 +189,11 @@
   .swiper-slide-active {
     .home-products__title {
       color: map_get($grey, extra);
+    }
+    .home-products__img {
+      @media (min-width: 1024px) {
+        transform: scale(1.2);
+      }
     }
     p,
     a {

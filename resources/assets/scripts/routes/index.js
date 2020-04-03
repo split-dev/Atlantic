@@ -16,7 +16,6 @@ export default {
       breakpoints: {
         1024: {
           slidesPerView: 2.7,
-          spaceBetween: 30,
           simulateTouch: false,
         },
       },

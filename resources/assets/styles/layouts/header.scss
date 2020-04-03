@@ -55,6 +55,9 @@
           color: map_get($grey, medium);
         }
       }
+      .btn {
+        padding: 7px 25px 7px 30px;
+      }
       li {
         margin-left: 43px;
       }
@@ -81,6 +84,7 @@
         background-color: $primary;
         margin-bottom: 5px;
         transition: 0.15s;
+        opacity: 1;
         &:last-child {
           margin-bottom: 0;
         }
@@ -96,7 +100,7 @@
         width: 20px;
         background-color: $primary;
         opacity: 0;
-        transform: 0.2s;
+        transition: 0.2s;
       }
       &:before {
         transform: translate(-50%, -50%) rotate(45deg);
