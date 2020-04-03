@@ -1,0 +1,35 @@
+.accordion-title {
+  border-bottom: 1px solid #d8d8d8;
+  margin-bottom: 16px;
+  transition: 0.15s;
+  &:hover {
+    color: map_get($grey, medium);
+  }
+  &:focus {
+    color: map_get($grey, medium);
+  }
+  span {
+    position: relative;
+    &:after {
+      content: url("../../images/symbols/Fill_2.svg");
+      margin-left: 19px;
+      position: relative;
+      top: 3px;
+    }
+    &:before {
+      content: "";
+      display: block;
+      position: absolute;
+    }
+  }
+}
+.accordion-item.is-active {
+  .accordion-title {
+    color: map_get($grey, extra);
+    border-color: map_get($grey, extra);
+    span:after {
+      content: url("../../images/symbols/Fill_1.svg");
+      top: -4px;
+    }
+  }
+}

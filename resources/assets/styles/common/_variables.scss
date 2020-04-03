@@ -47,3 +47,13 @@ $body-font-family: "Roboto", sans-serif;
 
 // Animations
 $transition: 0.2s;
+
+//Accordion Config
+$accordion-plusminus: false;
+$accordion-title-font-size: 16px;
+$accordion-item-color: map_get($grey, medium);
+$accordion-item-background-hover: $white;
+$accordion-item-padding: 11px 0;
+$accordion-content-border: none;
+$accordion-content-color: map_get($grey, medium);
+$accordion-content-padding: 16px 0 6px;

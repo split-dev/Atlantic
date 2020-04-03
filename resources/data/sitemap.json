@@ -20,6 +20,10 @@
     {
       "title": "About",
       "url": "/about.html"
+    },
+    {
+      "title": "FAQ",
+      "url": "/faq.html"
     }
   ]
 }

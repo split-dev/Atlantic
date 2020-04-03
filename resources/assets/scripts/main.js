@@ -14,6 +14,7 @@ import common from './routes/common';
 import Detection from './util/Detection';
 import home from './routes/index';
 import dealer from './routes/dealer-resources';
+import faq from './routes/faq';
 
 window._detector = new Detection({
  detect: ['ie11'],
@@ -26,6 +27,7 @@ const routes = new Router({
   common,
   'index': home,
   'dealerResources': dealer,
+  'faq': faq,
 });
 
 // Load Events

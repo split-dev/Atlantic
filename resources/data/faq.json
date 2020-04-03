@@ -1,0 +1,31 @@
+{
+  "page_title": "FAQ",
+  "image-block": {
+    "text-class": "bg-grey-light text-grey-medium",
+    "image": "images/pictures/faq-poster.jpg",
+    "heading": "Frequently asked questions"
+  },
+  "accordion": [
+    {
+      "question": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+      "answer": "Quam id leo in vitae turpis massa. Sem integer vitae justo eget magna fermentum iaculis eu non. Imperdiet massa tincidunt nunc pulvinar sapien. Sit amet est placerat in egestas erat imperdiet sed.",
+      "state": "is-active"
+    },
+    {
+      "question": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore?",
+      "answer": "Quam id leo in vitae turpis massa. Sem integer vitae justo eget magna fermentum iaculis eu non. Imperdiet massa tincidunt nunc pulvinar sapien. Sit amet est placerat in egestas erat imperdiet sed."
+    },
+    {
+      "question": "Excepteur sint occaecat cupidatat non proident?",
+      "answer": "Quam id leo in vitae turpis massa. Sem integer vitae justo eget magna fermentum iaculis eu non. Imperdiet massa tincidunt nunc pulvinar sapien. Sit amet est placerat in egestas erat imperdiet sed."
+    },
+    {
+      "question": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+      "answer": "Quam id leo in vitae turpis massa. Sem integer vitae justo eget magna fermentum iaculis eu non. Imperdiet massa tincidunt nunc pulvinar sapien. Sit amet est placerat in egestas erat imperdiet sed."
+    },
+    {
+      "question": "Excepteur sint occaecat cupidatat non proident?",
+      "answer": "Quam id leo in vitae turpis massa. Sem integer vitae justo eget magna fermentum iaculis eu non. Imperdiet massa tincidunt nunc pulvinar sapien. Sit amet est placerat in egestas erat imperdiet sed."
+    }
+  ]
+}

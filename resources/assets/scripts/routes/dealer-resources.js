@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-unused-vars
-import { Foundation, Tabs } from 'foundation-sites/dist/js/plugins/foundation.tabs'
+import { Foundation } from 'foundation-sites/dist/js/plugins/foundation.tabs'
 
 export default {
   init() {

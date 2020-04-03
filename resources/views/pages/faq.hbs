@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {{> ../common/head }}
+</head>
+<body class="faq">
+  {{> ../common/header}}
+  {{> ../partials/image-block}}
+  <section class="resources-tab__container">
+    <div class="row">
+      <div class="column large-offset-1 small-12 medium-8 large-6">
+        <ul class="accordion"
+            data-accordion
+            data-multi-expand="true"
+            data-allow-all-closed="true">
+          {{#each accordion}}
+          <li class="accordion-item {{state}}" data-accordion-item>
+            <a href="#" class="accordion-title text-uppercase fw-bold"><span>{{question}}</span></a>
+            <div class="accordion-content fz-1rem" data-tab-content>
+              <p>{{answer}}</p>
+            </div>
+          </li>
+          {{/each}}
+        </ul>
+      </div>
+      <div class="column large-offset-1 small-12 medium-4 large-3">
+        {{> ../partials/col-subscribe-form}}
+      </div>
+    </div>
+  </section>
+  {{> ../partials/cta}}
+  {{> ../common/footer}}
+</body>
+</html>
