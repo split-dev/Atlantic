@@ -54,5 +54,10 @@ export default {
     },
   // JavaScript to be fired on all pages, after page specific JS is fired
   finalize() {
+    //Shift + M - opens the sitemap
+    document.onkeyup = (e) => {
+      if (e.shiftKey && e.which === 77)
+        window.location = '/sitemap.html'
+    }
   },
 };

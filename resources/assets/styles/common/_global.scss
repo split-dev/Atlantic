@@ -37,4 +37,10 @@
 }
 .fz-1rem {
   font-size: 1rem;
+  p + p {
+    margin-top: -6px;
+  }
+}
+.tt-none {
+  text-transform: none !important;
 }

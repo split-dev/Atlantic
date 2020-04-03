@@ -1,0 +1,8 @@
+{
+  "page_title": "Standard Page Template",
+  "image-block": {
+    "text-class": "bg-grey-light text-grey-medium",
+    "image": "images/pictures/faq-poster.jpg",
+    "heading": "Excepteur sint occaecat cupidatat non proident"
+  }
+}
