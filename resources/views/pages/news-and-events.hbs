@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {{> ../common/head }}
+</head>
+<body>
+  {{> ../common/header}}
+  {{> ../partials/image-block
+          medium=true}}
+  <section class="filter__section">
+    <div class="row column">
+      <h4 class="fw-bold font-Montserrat margin-right-2 filter__title">Filter</h4>
+      <a href="#" class="filter active">News</a>
+      <a href="#" class="filter">Events</a>
+      <a href="#" class="filter">Products</a>
+    </div>
+  </section>
+  <section class="row">
+    {{#each news}}
+      {{> ../partials/tile}}
+    {{/each}}
+  </section>
+  {{> ../partials/pagination}}
+  {{> ../partials/subscribe}}
+  {{> ../common/footer}}
+</body>
+</html>

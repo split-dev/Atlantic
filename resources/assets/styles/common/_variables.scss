@@ -57,3 +57,18 @@ $accordion-item-padding: 11px 0;
 $accordion-content-border: none;
 $accordion-content-color: map_get($grey, medium);
 $accordion-content-padding: 16px 0 6px;
+
+//Forms Config
+$input-border: 1px solid map_get($grey, medium);
+$input-border-focus: 1px solid map_get($grey, extra);
+$input-padding: 0.5rem 1rem;
+
+//Pagination
+$pagination-font-size: 1rem;
+$pagination-item-color: inherit;
+$pagination-item-color-current: map_get($grey, extra);
+$pagination-item-background-current: none;
+$pagination-item-background-hover: map_get($grey, light);
+$pagination-item-spacing: 6px;
+$pagination-margin-bottom: 45px;
+

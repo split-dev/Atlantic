@@ -1,3 +1,4 @@
+// Text Helpers
 .text-primary {
   color: $primary;
 }
@@ -10,6 +11,8 @@
 .text-grey-medium {
   color: map_get($grey, medium);
 }
+
+//BG Helpers
 .bg-primary {
   background-color: $primary;
 }
@@ -19,12 +22,25 @@
 .bg-grey-light {
   background-color: map_get($grey, light);
 }
+
+//Type helpers
 .fw-bold {
   font-weight: 700;
 }
 .font-Montserrat {
   font-family: "Montserrat", sans-serif;
 }
+.fz-1rem {
+  font-size: 1rem;
+  p + p {
+    margin-top: -6px;
+  }
+}
+.border-grey-extra {
+  border-color: map_get($grey, extra);
+}
+
+//Position Helpers
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -33,12 +49,6 @@
   padding: 24px 20px 44px;
   @media (min-width: 1024px) {
     padding: 28px 30px 44px;
-  }
-}
-.fz-1rem {
-  font-size: 1rem;
-  p + p {
-    margin-top: -6px;
   }
 }
 .tt-none {

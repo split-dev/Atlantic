@@ -41,8 +41,15 @@
       p {
         color: inherit;
       }
-      .btn {
-        @extend .btn-grey;
+      &:not(.label-primary) {
+        .btn {
+          @extend .btn-grey;
+        }
+      }
+      &.label-primary {
+        .btn {
+          @extend .btn-primary;
+        }
       }
     }
     &__content {
@@ -54,6 +61,9 @@
         min-height: 368px;
         &.narrow {
           padding: 56px 15px 60px;
+        }
+        &.medium {
+          padding: 85px 15px;
         }
       }
       a {

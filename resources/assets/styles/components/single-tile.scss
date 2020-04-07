@@ -14,6 +14,7 @@
   }
   @media (min-width: 640px) {
     padding: 40px 30px;
+    margin-bottom: 30px;
   }
   &:hover {
     svg {
@@ -37,15 +38,13 @@
     @extend h5;
     @extend .fw-bold;
   }
-  .btn {
-    font-size: 16px;
-  }
-}
-.tile-container {
-  & > * {
+  &__block {
     margin-bottom: 15px;
     @media (min-width: 640px) {
       margin-bottom: 30px;
     }
+  }
+  .btn {
+    font-size: 16px;
   }
 }

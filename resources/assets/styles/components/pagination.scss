@@ -1,0 +1,15 @@
+.pagination {
+  @media (min-width: 640px) {
+    margin-top: 10px;
+  }
+  li.current {
+    padding: 0;
+    @extend .fw-bold;
+  }
+  li:first-child {
+    margin-right: 43px;
+  }
+  li:last-child {
+    margin-left: 37px;
+  }
+}

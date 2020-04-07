@@ -28,6 +28,10 @@
     {
       "title": "Standard Page Template",
       "url": "/standard-page.html"
+    },
+    {
+      "title": "News & Events",
+      "url": "/news-and-events.html"
     }
   ]
 }

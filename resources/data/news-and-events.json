@@ -1,0 +1,58 @@
+{
+  "page_title": "News and Events",
+  "image-block": {
+    "text-class": "bg-grey-light text-grey-medium label-primary",
+    "image": "images/pictures/caravanandstars.jpg",
+    "subtitle": "Featured",
+    "heading": "Endeavour 196 LTD – Limited Edition",
+    "text": "Mark from Atlantic Caravans catches up with Borgy to chat about the limited edition Endeavour 196 LTD at the recent Border Caravan and Camping Expo.",
+    "label": "Read more"
+  },
+  "news": [
+    {
+      "image": "images/pictures/caravan-on-the-seashore.jpg",
+      "subtitle": "events",
+      "title": "Excepteur sint occaecat cupidatat non proident"
+    },
+    {
+      "image": "images/pictures/couple&dog-on-the-mountaing.jpg",
+      "subtitle": "Products",
+      "title": "Duis aute irure dolor "
+    },
+    {
+      "image": "images/pictures/kitchen-inside-the-caravan.jpg",
+      "subtitle": "Products",
+      "title": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui"
+    },
+    {
+      "image": "images/pictures/retired-couple-camping.jpg",
+      "subtitle": "Products",
+      "title": "Duis aute irure dolor"
+    },
+    {
+      "image": "images/pictures/retired-couple-on-the-lake.jpg",
+      "subtitle": "Products",
+      "title": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui"
+    },
+    {
+      "image": "images/pictures/exhibition.jpg",
+      "subtitle": "events",
+      "title": "Excepteur sint occaecat cupidatat non proident"
+    },
+    {
+      "image": "images/pictures/caravan-view.jpg",
+      "subtitle": "Products",
+      "title": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui"
+    },
+    {
+      "image": "images/pictures/luxuary-caravan-inside.jpg",
+      "subtitle": "events",
+      "title": "Excepteur sint occaecat cupidatat non proident"
+    },
+    {
+      "image": "images/pictures/mountain-and-lake-view.jpg",
+      "subtitle": "Products",
+      "title": "Duis aute irure dolor"
+    }
+  ]
+}
