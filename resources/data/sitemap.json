@@ -14,6 +14,10 @@
       "url": "/log-in.html"
     },
     {
+      "title": "Dealer Log In",
+      "url": "/log-in-invalid.html"
+    },
+    {
       "title": "Dealer Resources",
       "url": "/dealer-resources.html"
     },

@@ -13,4 +13,17 @@
     padding: 11px 26px 11px 40px;
     margin: 21px auto;
   }
+  &__error {
+    display: none;
+    p {
+      color: #f54243;
+      font-size: 14px;
+      padding-left: 9px;
+    }
+  }
+  &.invalid {
+    .log-in-form__error {
+      display: flex;
+    }
+  }
 }
