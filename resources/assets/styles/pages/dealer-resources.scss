@@ -46,6 +46,9 @@
     input {
       margin-top: 24px;
     }
+    p + h4 {
+      margin-top: 16px;
+    }
     &__title {
       margin-bottom: 25px;
     }

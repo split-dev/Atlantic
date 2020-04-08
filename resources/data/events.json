@@ -1,0 +1,10 @@
+{
+  "page_title": "Events page",
+  "image-block": {
+    "text-class": "bg-grey-light text-grey-medium label-primary",
+    "image": "images/pictures/faq-poster.jpg",
+    "subtitle": "Events",
+    "heading": "Excepteur sint occaecat cupidatat non proident",
+    "label": "Buy tickets"
+  }
+}

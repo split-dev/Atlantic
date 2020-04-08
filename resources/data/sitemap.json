@@ -32,6 +32,14 @@
     {
       "title": "News & Events",
       "url": "/news-and-events.html"
+    },
+    {
+      "title": "Events",
+      "url": "/events.html"
+    },
+    {
+      "title": "News",
+      "url": "/news.html"
     }
   ]
 }
