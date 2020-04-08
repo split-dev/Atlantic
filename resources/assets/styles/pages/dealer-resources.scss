@@ -28,6 +28,9 @@
     }
   }
   &__content {
+    @media (max-width: 641px) {
+      margin-top: 32px;
+    }
     p,
     a,
     button {
@@ -51,6 +54,19 @@
     }
     &__title {
       margin-bottom: 25px;
+    }
+    &:not(.padding-box) h4 {
+      margin-bottom: 15px;
+      @media (min-width: 1250px) {
+        padding: 0 28px;
+      }
+    }
+    .single-tile {
+      min-height: 235px;
+    }
+    .single-tile__block:not(:last-of-type) {
+      display: block;
+      margin-bottom: 15px;
     }
   }
 }

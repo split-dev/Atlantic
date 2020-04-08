@@ -96,6 +96,19 @@
   &__title {
     text-transform: uppercase;
   }
+  &__share {
+    margin-top: 20px;
+    > * {
+      margin-right: 20px;
+    }
+    a {
+      opacity: 1;
+      transition: 0.15s ease-in;
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+  }
   & + .cta__section {
     margin-top: -46px;
     padding-top: 40px;
