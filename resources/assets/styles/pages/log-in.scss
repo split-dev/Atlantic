@@ -2,14 +2,23 @@
   max-width: 379px;
   padding: 79px 0 59px;
   margin: 0 auto;
+  &.wider {
+    max-width: 580px;
+  }
   @media (max-width: 641px) {
     min-height: calc(100vh - 216px);
   }
   * {
     font-size: 16px;
   }
+  h4 {
+    font-size: 21px;
+    margin-bottom: 16px;
+  }
+  textarea {
+    resize: none;
+  }
   .btn {
-    cursor: pointer;
     padding: 11px 26px 11px 40px;
     margin: 21px auto;
   }

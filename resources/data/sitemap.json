@@ -44,6 +44,10 @@
     {
       "title": "News",
       "url": "/news.html"
+    },
+    {
+      "title": "Contact Us",
+      "url": "/contact.html"
     }
   ]
 }

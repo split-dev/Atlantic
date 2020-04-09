@@ -14,11 +14,8 @@
       background-clip: content-box;
       padding: 70px 0 46px;
     }
-    br {
-      display: none;
-      @media (min-width: 1024px) {
-        display: inline;
-      }
+    h3 + p {
+      margin-top: 22px;
     }
     p {
       margin-bottom: 7px;
@@ -96,6 +93,12 @@
   &__title {
     text-transform: uppercase;
     margin-bottom: 13px;
+    br {
+      display: none;
+      @media (min-width: 1024px) {
+        display: inline;
+      }
+    }
   }
   &__share {
     margin-top: 20px;
@@ -108,6 +111,25 @@
       &:hover {
         opacity: 0.6;
       }
+    }
+  }
+  &__link {
+    color: $primary;
+    fill: $primary;
+    margin-bottom: 10px;
+    transition: 0.15s;
+    @extend .flex-container;
+    @extend .align-middle;
+    @extend .text-primary;
+    @media (min-width: 640px) {
+      font-size: 21px !important;
+    }
+    &:hover {
+      color: $secondary;
+      fill: $secondary;
+    }
+    &:first-of-type {
+      margin-top: 24px;
     }
   }
   & + .cta__section {

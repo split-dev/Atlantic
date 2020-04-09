@@ -1,0 +1,12 @@
+{
+  "page_title": "Contact Us",
+  "image-block": {
+    "text-class": "bg-grey-light text-grey-medium",
+    "image": "images/pictures/mountain-view.jpg",
+    "heading": "Contact us"
+  },
+  "image-block2": {
+    "text-class": "bg-grey-light text-grey-medium",
+    "heading": "visit us lorem ipsum"
+  }
+}
