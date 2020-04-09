@@ -52,7 +52,7 @@
         color: map_get($grey, extra);
         transition: 0.1s;
         &:not(.btn-grey-outline):hover {
-          color: map_get($grey, medium);
+          color: $primary;
         }
       }
       .btn {

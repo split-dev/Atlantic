@@ -3,8 +3,8 @@
   padding: 30px 20px;
   min-height: 250px;
   height: 100%;
-  background-size: cover;
   cursor: pointer;
+  transition: 0.4s;
   z-index: 1;
   &:after {
     content: "";
@@ -22,6 +22,9 @@
     }
     .svg-anim {
       transform: translateX(-20px);
+    }
+    .single-tile__img {
+      transform: scale(1.1);
     }
   }
   span {
@@ -43,6 +46,11 @@
     @media (min-width: 640px) {
       margin-bottom: 30px;
     }
+  }
+  &__img {
+    transform: scale(1);
+    z-index: -1;
+    transition: 0.4s;
   }
   .btn {
     font-size: 16px;
