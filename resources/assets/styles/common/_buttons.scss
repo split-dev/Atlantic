@@ -12,9 +12,17 @@
     margin-left: -1px;
     transition: 0.2s transform;
   }
-  &:hover {
+  &.reverse:hover {
     svg {
       margin-left: 30px;
+    }
+    .svg-anim {
+      transform: translateX(-20px);
+    }
+  }
+  &:not(.reverse):hover {
+    svg {
+      margin-left: 35px;
     }
     .svg-anim {
       transform: translateX(-20px);

@@ -12,6 +12,9 @@
   &:hover {
     background: map_get($grey, light);
   }
+  &:focus {
+    color: map_get($grey, extra);
+  }
   @media (min-width: 640px) {
     padding: 11px 28px;
     margin-right: 15px;
@@ -22,6 +25,9 @@
     &:hover {
       @extend .bg-primary;
       @extend .text-white;
+    }
+    &:focus {
+      color: $white;
     }
   }
   &__title {

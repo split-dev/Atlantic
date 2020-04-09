@@ -15,6 +15,7 @@ import Detection from './util/Detection';
 import home from './routes/index';
 import dealer from './routes/dealer-resources';
 import faq from './routes/faq';
+import blog from './routes/blog';
 
 window._detector = new Detection({
  detect: ['ie11'],
@@ -28,6 +29,7 @@ const routes = new Router({
   'index': home,
   'dealerResources': dealer,
   'faq': faq,
+  'blog': blog,
 });
 
 // Load Events
