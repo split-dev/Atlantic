@@ -1,0 +1,61 @@
+{
+  "page_title": "Find A Dealer",
+  "image-block": {
+    "text-class": "bg-grey-light text-grey-medium",
+    "heading": "Find a dealer <br /> near you"
+  },
+  "dealers": [
+    {
+      "image": "images/dealers/dealer-1.jpg",
+      "title": "Our Van RV",
+      "tel": "1300 068 700",
+      "email": "sales@ourvanrv.com.au",
+      "address": "2-4 Henry Wilson <br /> Drive Rosebud, VIC 3939"
+    },
+    {
+      "image": "images/dealers/rv-logo.jpg",
+      "title": "Warrnambool RV & Caravan Centre",
+      "tel": "03 5561 0033",
+      "email": "sales@warrnamboolcaravans.com.au",
+      "address": "182 Raglan Parade <br /> Warrnambool, VIC 3280"
+    },
+    {
+      "style": "background-color: #00407e",
+      "image": "images/dealers/dealer-3.jpg",
+      "title": "Pelican Marine & RV",
+      "tel": "08 8555 2520",
+      "email": "david@pelicanmarine.com.au",
+      "address": "39 Cadell Street <br /> Goolwa, SA 5214"
+    },
+    {
+      "style": "background-color: #4776fc",
+      "image": "images/dealers/web-express-evolution-media-8350756-Header-blank.jpg",
+      "title": "Parravans Caravan World",
+      "tel": "02 4577 5577",
+      "email": "dave@parravans.com.au",
+      "address": "38-40 Mileham Street <br /> Windsor, NSW 2756"
+    },
+    {
+      "image": "images/dealers/dealer-5.jpg",
+      "title": "Fraser RV",
+      "tel": "07 4633 7611",
+      "email": "david@fraserrv.com.au",
+      "address": "471 Boundary Street <br />  Toowoomba, QLD 4350"
+    },
+    {
+      "style": "background-color: #252455",
+      "image": "images/dealers/dealer-6.png",
+      "title": "Brisbane RVs",
+      "tel": "07 3888 3273",
+      "email": "steve@brisbanervs.com.au",
+      "address": "270 Bruce Hwy Eastern Service Road <br /> Burpengary, QLD 4505"
+    },
+    {
+      "image": "images/dealers/dealer-7.jpg",
+      "title": "Caravans W.A",
+      "tel": "08 9493 0405",
+      "email": "sales@caravanswa.net.au",
+      "address": "1834 Albany Highway <br /> Maddington, WA 6109"
+    }
+  ]
+}

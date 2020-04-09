@@ -1,0 +1,28 @@
+.dealer-tile {
+  height: calc(100% - 30px);
+  &__img {
+    min-height: 196px;
+    display: flex;
+    @extend .align-center-middle;
+  }
+  &__link {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 8px;
+    color: map_get($grey, medium);
+    fill: map_get($grey, medium);
+    transition: 0.15s;
+    @extend .fz-1rem;
+    &:hover {
+      color: map_get($grey, extra);
+      fill: map_get($grey, extra);
+    }
+  }
+  .btn {
+    margin-top: auto;
+    @extend .fz-1rem;
+  }
+  &__container {
+    margin: 60px 0;
+  }
+}
