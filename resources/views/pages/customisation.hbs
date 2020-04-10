@@ -3,11 +3,61 @@
 <head>
   {{> ../common/head }}
 </head>
-<body>
+<body class="customisation">
   {{> ../common/header}}
   {{> ../partials/image-block}}
+  <div class="product__section">
+    <div class="row">
+      <div class="column small-12 large-3">
+        <div class="padding-box bg-grey-light">
+          <div class="flex-container align-justify align-middle">
+            <h4 class="fw-bold text-grey-extra font-Montserrat">Filters</h4>
+            <a href="#" class="fz-1rem" data-filters-clear>Clear</a>
+          </div>
+          <ul class="accordion products"
+              data-accordion
+              data-multi-expand="true"
+              data-allow-all-closed="true">
+            {{#each accordion}}
+              <li class="accordion-item {{state}}" data-accordion-item>
+                <a href="#" class="accordion-title text-uppercase fw-bold"><span>{{filter}}</span></a>
+                <div class="accordion-content fz-1rem" data-tab-content>
+                  <ul class="filter-list">
+                    {{#each options}}
+                    <li><input class="hide filter-list__input" type="checkbox" id="{{id}}"><label class="filter-list__label margin-left-0" for="{{id}}">{{label}}</label></li>
+                    {{/each}}
+                  </ul>
 
-  {{> ../partials/pagination}}
+                </div>
+              </li>
+            {{/each}}
+          </ul>
+        </div>
+      </div>
+      <div class="column">
+        <div class="row">
+          {{#each products}}
+          <div class="column small-12 medium-6 large-4">
+            <a href="#" class="card product">
+              <span class="product__img">
+                <img src="{{image}}" alt="#">
+              </span>
+              <span class="card-section">
+                <span class="fw-bold text-grey-extra font-Montserrat product__title">{{heading}}</span>
+                {{#if description}}
+                  <span class="product__description">{{description}}</span>
+                {{/if}}
+              </span>
+            </a>
+          </div>
+          {{/each}}
+          <div class="column small-12">
+            {{> ../partials/pagination}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   {{> ../partials/cta}}
   {{> ../common/footer}}
 </body>

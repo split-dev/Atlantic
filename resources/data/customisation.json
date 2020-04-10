@@ -5,5 +5,80 @@
     "image": "images/pictures/Atlantic_HT_19_int_3a-2.jpg",
     "heading": "Customise <br /> your Atlantic",
     "text": "As with all our caravans there is extensive scope to customise and tailor your van to cater to your family’s needs."
-  }
+  },
+  "products": [
+    {
+      "image": "images/parts/ssa45-5.jpg",
+      "heading": "S leaf spring suspension",
+      "description": ""
+    },
+    {
+      "image": "images/parts/53_00_dometic_skl101_9600006441_55300_11.jpg",
+      "heading": "Slide out alfresco kitchen",
+      "description": "Colour options available"
+    },
+    {
+      "image": "images/parts/043268_11791.jpg",
+      "heading": "External speakers",
+      "description": "Colour options available"
+    },
+    {
+      "image": "images/parts/043268_11791.jpg",
+      "heading": "External speakers",
+      "description": "Colour options available"
+    },
+    {
+      "image": "images/parts/ssa45-5.jpg",
+      "heading": "S leaf spring suspension",
+      "description": ""
+    },
+    {
+      "image": "images/parts/53_00_dometic_skl101_9600006441_55300_11.jpg",
+      "heading": "Slide out alfresco kitchen",
+      "description": "Colour options available"
+    },
+    {
+      "image": "images/parts/53_00_dometic_skl101_9600006441_55300_11.jpg",
+      "heading": "Slide out alfresco kitchen",
+      "description": "Colour options available"
+    }
+  ],
+  "accordion": [
+    {
+      "state": "is-active",
+      "filter": "Upgrade type",
+      "options": [
+        {"id": "Chassis", "label": "Chassis"},
+        {"id": "Internal", "label": "Internal"},
+        {"id": "External", "label": "External"},
+        {"id": "Electrical", "label": "Electrical"},
+        {"id": "Appliances", "label": "Appliances"},
+        {"id": "Upholstery", "label": "Upholstery"}
+      ]
+    },
+    {
+      "filter": "Caravan Model",
+      "options": [
+        {"id": "Chassis", "label": "Chassis"},
+        {"id": "Internal", "label": "Internal"},
+        {"id": "External", "label": "External"}
+      ]
+    },
+    {
+      "filter": "Price range",
+      "options": [
+        {"id": "Chassis1", "label": "Chassis"},
+        {"id": "Internal1", "label": "Internal"},
+        {"id": "External1", "label": "External"}
+      ]
+    },
+    {
+      "filter": "Additional Options",
+      "options": [
+        {"id": "Chassis2", "label": "Chassis"},
+        {"id": "Internal2", "label": "Internal"},
+        {"id": "External2", "label": "External"}
+      ]
+    }
+  ]
 }
