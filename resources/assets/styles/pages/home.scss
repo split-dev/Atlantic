@@ -234,6 +234,9 @@
       @extend .bg-primary;
       z-index: -1;
     }
+    &.overlay-grey-extra:after {
+      background-color: map_get($grey, extra);
+    }
     @media (min-width: 640px) {
       min-height: 400px;
     }
@@ -256,6 +259,9 @@
       br {
         display: none;
       }
+    }
+    h3 {
+      margin-bottom: 15px;
     }
     p {
       margin-bottom: 9px;

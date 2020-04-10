@@ -1,0 +1,21 @@
+.individual-modal__hero {
+  padding-top: 120px;
+  background-clip: content-box;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  z-index: 1;
+  &:after {
+    content: "";
+    background: rgba(0, 0, 0, 0.35);
+    @extend .absolute-fill;
+    z-index: -1;
+  }
+  &__container {
+    height: calc(100vh - 120px);
+    padding-top: 60px;
+  }
+  &__subtitle {
+    font-size: 23px;
+  }
+}

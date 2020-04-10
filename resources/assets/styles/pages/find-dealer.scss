@@ -1,5 +1,9 @@
 .dealer-tile {
   height: calc(100% - 30px);
+  transition: 0.15s;
+  &:hover {
+    border-color: map_get($grey, medium);
+  }
   &__img {
     min-height: 196px;
     display: flex;

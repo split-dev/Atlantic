@@ -32,9 +32,6 @@ export default {
      });
 
     $(document).foundation();
-
-    // eslint-disable-next-line no-unused-vars
-    // var accordion = new Foundation.Accordion($('.accordion'));
   },
 
   // JavaScript to be fired on all pages, after page specific JS is fired
