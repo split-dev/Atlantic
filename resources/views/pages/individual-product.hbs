@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {{> ../common/head }}
+</head>
+<body class="individual-product">
+  {{> ../common/header}}
+  <section class="bg-grey-light single-product__section">
+    <div class="row">
+      <div class="column small-12 medium-6">
+        <div class="swiper-container single-product__slider">
+          <div class="swiper-wrapper">
+            {{#each product-img}}
+            <div class="swiper-slide">
+              <div class="single-product__slider__content">
+                <img src="{{img}}" alt="#">
+              </div>
+            </div>
+            {{/each}}
+          </div>
+        </div>
+        <div class="swiper-container single-product__thumbs">
+          <div class="swiper-wrapper">
+            {{#each product-img}}
+              <div class="swiper-slide single-product__slider__thumbs">
+                <img src="{{img}}" alt="#">
+              </div>
+            {{/each}}
+          </div>
+        </div>
+      </div>
+      <div class="column small-12 medium-6">
+        <div class="single-product__description">
+          <p class="single-product__sku text-uppercase text-grey-medium fz-1rem">SKU: 5236922-2</p>
+          <h3 class="single-product__title">S-leaf spring <br> suspension</h3>
+          <p class="fz-1rem text-grey-medium">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam id leo in vitae turpis massa.
+          </p>
+          <h5 class="text-grey-extra fw-bold tt-none">Color options</h5>
+          <div class="flex-container single-product__colors">
+            <span class="color-box bottom"
+                  style="background-color: #174194"
+                  data-tooltip
+                  tabindex="1"
+                  title="Deep Blue"></span>
+            <span class="color-box bottom"
+                  style="background-color: #919191"
+                  data-tooltip
+                  tabindex="2"
+                  title="Grey"></span>
+            <span class="color-box bottom"
+                  style="background-color: #292929"
+                  data-tooltip
+                  tabindex="2"
+                  title="Dark Grey"></span>
+            <span class="color-box bordered bottom"
+                  style="background-color: #fff"
+                  data-tooltip
+                  tabindex="2"
+                  title="White"></span>
+          </div>
+          <a href="#" class="btn btn-grey-outline fw-bold">Enquire today</a>
+          <ul class="products accordion"
+              data-accordion
+              data-multi-expand="true"
+              data-allow-all-closed="true">
+              <li class="accordion-item is-active" data-accordion-item>
+                <a href="#" class="accordion-title text-uppercase fw-bold"><span>Dimensions</span></a>
+                <div class="accordion-content fz-1rem" data-tab-content>
+                  <p class="text-grey-extra">
+                    Width: <span class="text-grey-medium">1-3/4"</span> <br>
+                    Gauge: <span class="text-grey-medium">7/32"</span> <br>
+                    No. Leaves: <span class="text-grey-medium">6</span> <br>
+                    Inter-leaving: <span class="text-grey-medium">(none)</span>
+                  </p>
+                </div>
+              </li>
+              <li class="accordion-item" data-accordion-item>
+                <a href="#" class="accordion-title text-uppercase fw-bold"><span>Specifications</span></a>
+                <div class="accordion-content fz-1rem" data-tab-content>
+                  <p class="text-grey-extra">
+                    Width: <span class="text-grey-medium">1-3/4"</span> <br>
+                    Gauge: <span class="text-grey-medium">7/32"</span> <br>
+                    No. Leaves: <span class="text-grey-medium">6</span> <br>
+                    Inter-leaving: <span class="text-grey-medium">(none)</span>
+                  </p>
+                </div>
+              </li>
+              <li class="accordion-item" data-accordion-item>
+                <a href="#" class="accordion-title text-uppercase fw-bold"><span>PDF Downloads</span></a>
+                <div class="accordion-content fz-1rem" data-tab-content>
+                  <a href="#" class="btn btn-primary">Download PDF</a>
+                </div>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="">
+    <div class="row column text-center">
+      <h3>Related customisation options</h3>
+      <p class="text-grey-medium">As with all our caravans there is extensive scope to customise
+        and tailor your van to cater to your family’s needs.</p>
+    </div>
+    <div class="flex-container">
+      <div class="column">
+        <a href="#" class="display-block">
+          <span>
+            <img src="#" alt="#">
+          </span>
+        </a>
+      </div>
+      <div class="column hide-for-small">
+
+      </div>
+      <div class="column hide-for-small">
+
+      </div>
+      <div class="column">
+
+      </div>
+    </div>
+  </section>
+  {{> ../partials/cta}}
+  {{> ../common/footer}}
+</body>
+</html>

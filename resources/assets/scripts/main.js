@@ -17,6 +17,7 @@ import dealer from './routes/dealer-resources';
 import faq from './routes/faq';
 import blog from './routes/blog';
 import customisation from './routes/customisation';
+import individualProduct from './routes/individual-product';
 
 window._detector = new Detection({
  detect: ['ie11'],
@@ -32,6 +33,7 @@ const routes = new Router({
   'faq': faq,
   'blog': blog,
   'customisation': customisation,
+  'individualProduct': individualProduct,
 });
 
 // Load Events

@@ -56,6 +56,14 @@
     {
       "title": "Customisation",
       "url": "/customisation.html"
+    },
+    {
+      "title": "Individual Product Page",
+      "url": "/individual-product.html"
+    },
+    {
+      "title": "Individual Model Page",
+      "url": "/individual-model.html"
     }
   ]
 }
