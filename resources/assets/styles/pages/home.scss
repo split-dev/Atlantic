@@ -237,6 +237,13 @@
     &.overlay-grey-extra:after {
       background-color: map_get($grey, extra);
     }
+    &.base-on-right {
+      padding: 0 15px 15px 0;
+      &:after {
+        right: 0;
+        left: 15px;
+      }
+    }
     @media (min-width: 640px) {
       min-height: 400px;
     }
@@ -254,12 +261,17 @@
         padding-top: 78px;
         padding-bottom: 60px;
       }
+      &.tiny {
+        padding-top: 25px;
+        padding-bottom: 25px;
+      }
     }
     @media (max-width: 1023px) {
       br {
         display: none;
       }
     }
+    &__title,
     h3 {
       margin-bottom: 15px;
     }
@@ -268,6 +280,15 @@
       &:last-child {
         margin-bottom: 0;
       }
+    }
+  }
+  &__features {
+    margin-top: 25px;
+    &__img {
+      width: 50px;
+      display: flex;
+      justify-content: center;
+      margin-right: 4px;
     }
   }
   & > .row {

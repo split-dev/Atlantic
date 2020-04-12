@@ -1,6 +1,6 @@
 import Swiper from 'swiper'
-import 'foundation-sites/dist/js/plugins/foundation.tooltip'
-import 'foundation-sites/dist/js/plugins/foundation.accordion'
+import 'foundation-sites/dist/js/plugins/foundation.tooltip.min'
+import 'foundation-sites/dist/js/plugins/foundation.accordion.min'
 
 export default {
   init() {
