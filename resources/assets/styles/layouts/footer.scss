@@ -60,6 +60,10 @@
         fill: $secondary;
       }
     }
+    span {
+      word-wrap: break-word;
+      width: calc(100% - 28px);
+    }
     &.column {
       @media (min-width: 1024px) {
         padding-top: 50px;

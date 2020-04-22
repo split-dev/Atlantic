@@ -2,6 +2,12 @@
   &__container {
     margin-top: 60px;
     margin-bottom: 60px;
+    img {
+      margin: 2rem 0;
+    }
+    p + img {
+      margin-top: 1rem;
+    }
   }
   &__title {
     width: 50%;

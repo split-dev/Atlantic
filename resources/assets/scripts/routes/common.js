@@ -51,6 +51,18 @@ export default {
 
       document.querySelector('body').classList.toggle('overflow-hidden')
     });
+
+    //Copy Window Location to Clipboard
+    if (document.querySelector('[data-copy-to-clipboard]')) {
+      let storage = document.querySelector('[data-location-storage]');
+      storage.value = window.location;
+      document.querySelector('[data-copy-to-clipboard]').addEventListener('click', function (e) {
+        e.preventDefault();
+        storage.select();
+        storage.setSelectionRange(0, 99999);
+        document.execCommand('copy');
+      });
+    }
     },
   // JavaScript to be fired on all pages, after page specific JS is fired
   finalize() {
