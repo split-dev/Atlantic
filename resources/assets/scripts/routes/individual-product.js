@@ -31,6 +31,27 @@ export default {
       },
      });
 
+    // eslint-disable-next-line no-unused-vars
+    let bottomSlider = new Swiper('.product-related__container', {
+      slidesPerView: 1.3,
+      loop: true,
+      centeredSlides: false,
+      breakpoints: {
+        576: {
+          slidesPerView: 2.1,
+          centeredSlides: true,
+        },
+        768: {
+          slidesPerView: 2.8,
+          centeredSlides: true,
+        },
+        1024: {
+          slidesPerView: 4,
+          centeredSlides: false,
+        },
+      },
+    });
+
     $(document).foundation();
   },
 
