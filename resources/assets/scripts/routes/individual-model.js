@@ -49,6 +49,21 @@ export default {
         },
       },
     });
+    if (window.innerWidth > 991){
+      $('.swiper-slide').on('click', function () {
+        if ($(this).hasClass('swiper-slide-duplicate-prev'))
+          bottomSlider.slideNext();
+        else if ($(this).hasClass('swiper-slide-active'))
+          bottomSlider.slidePrev();
+      });
+    } else {
+      $('.swiper-slide').on('click', function () {
+        if ($(this).hasClass('swiper-slide-prev'))
+          bottomSlider.slidePrev();
+        else if ($(this).hasClass('swiper-slide-next'))
+          bottomSlider.slideNext();
+      });
+    }
   },
 
   // JavaScript to be fired on all pages, after page specific JS is fired

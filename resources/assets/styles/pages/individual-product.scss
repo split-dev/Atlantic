@@ -143,6 +143,7 @@
   @media (min-width: 1024px) {
     .swiper-slide-active,
     .swiper-slide-duplicate-prev {
+      cursor: pointer;
       .product-related__img {
         overflow: visible;
         position: relative;
@@ -249,6 +250,20 @@
   &__block:hover {
     img {
       transform: scale(1.05);
+    }
+  }
+  @media (min-width: 991px) {
+    .swiper-slide-duplicate-prev > a,
+    .swiper-slide-active > a {
+      display: block;
+      pointer-events: none;
+    }
+  }
+  @media (max-width: 992px) {
+    .swiper-slide-prev > a,
+    .swiper-slide-next > a {
+      display: block;
+      pointer-events: none;
     }
   }
 }
