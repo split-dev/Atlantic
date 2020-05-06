@@ -38,8 +38,6 @@
   &__title {
     color: $white;
     margin-bottom: 13px;
-    @extend h5;
-    @extend .fw-bold;
   }
   &__block {
     margin-bottom: 15px;
