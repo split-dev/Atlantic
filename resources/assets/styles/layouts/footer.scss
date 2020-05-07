@@ -2,11 +2,20 @@
   * {
     font-size: 16px;
   }
+  &__logo {
+    @media (max-width: 639px) {
+      display: block;
+      margin: 0 auto;
+    }
+  }
   &__top {
     padding: 50px 0;
+    @media (max-width: 639px) {
+      margin-bottom: -55px;
+    }
     .column {
       @media (max-width: 1023px) {
-        margin-bottom: 20px;
+        margin-bottom: 50px;
       }
     }
   }
@@ -46,6 +55,11 @@
       &:hover {
         color: $secondary;
         fill: $secondary;
+      }
+      &:last-child {
+        @media (max-width: 639px) {
+          margin-bottom: 0;
+        }
       }
     }
     span {
