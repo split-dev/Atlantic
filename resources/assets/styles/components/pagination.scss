@@ -6,10 +6,10 @@
     padding: 0;
     @extend .fw-bold;
   }
-  li:first-child {
+  li.prev {
     margin-right: 33px;
   }
-  li:last-child {
+  li.next {
     margin-left: 33px;
   }
 }
