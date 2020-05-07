@@ -69,7 +69,7 @@ $pagination-item-color: inherit;
 $pagination-item-color-current: map_get($grey, extra);
 $pagination-item-background-current: none;
 $pagination-item-background-hover: map_get($grey, light);
-$pagination-item-spacing: 6px;
+$pagination-item-spacing: 0;
 $pagination-margin-bottom: 45px;
 
 //Card
