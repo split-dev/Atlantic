@@ -35,7 +35,7 @@ export default {
     let bottomSlider = new Swiper('.product-related__container', {
       slidesPerView: 1.3,
       loop: true,
-      centeredSlides: false,
+      centeredSlides: true,
       breakpoints: {
         576: {
           slidesPerView: 2.1,
