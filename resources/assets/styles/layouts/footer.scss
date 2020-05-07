@@ -1,5 +1,4 @@
 .footer {
-  //box-shadow: 0 -2px 4px #f6f6f6;
   * {
     font-size: 16px;
   }
@@ -13,38 +12,27 @@
   }
   &__bottom {
     font-size: 14px;
-    padding: 12px 0;
+    padding: 12px 15px;
     * {
       margin-bottom: 0;
       color: inherit;
     }
+    p {
+      display: initial;
+    }
     span {
       margin: 0 16px;
-      @media (max-width: 639px) {
-        display: none;
-      }
-    }
-    @media (max-width: 1023px) {
-      flex-wrap: wrap;
-      p {
-        order: 1;
-        width: 100%;
-        text-align: center;
-        margin-top: 12px;
-        & + span {
-          display: none;
-        }
-      }
-    }
-    @media (min-width: 640px) {
-      justify-content: center;
-      align-items: center;
     }
     @media (max-width: 639px) {
-      flex-direction: column;
       padding: 12px 15px;
+      max-width: 375px;
+      margin: 0 auto;
       a {
         margin-bottom: 12px;
+        white-space: nowrap;
+      }
+      .d-none-on-xs {
+        display: none;
       }
     }
   }
